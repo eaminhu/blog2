@@ -1,38 +1,215 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Blog by eaminhu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Blog</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/eaminhu/blog" class="btn">View on GitHub</a>
-      <a href="https://github.com/eaminhu/blog/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/eaminhu/blog/tarball/master" class="btn">Download .tar.gz</a>
+    <title>Eamin's Blog</title>
+    <link type="text/css" rel="stylesheet"  href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet"  href="css/index.css">
+    <link type="text/css" rel="stylesheet"  href="css/common.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <!--My
+                <span>Blog</span>-->
+
+            </a>
+            <div class="navbar-collapse collapse ">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="">主页</a>
+                    </li>
+                    <li>
+                        <a href="">程序</a>
+                    </li>
+                    <li>
+                        <a href="">生活</a>
+                    </li>
+                    <li class="dropdown" >
+                        <a class="dropdown-toggle"  data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">
+                            摄影
+                            <b class=" icon-angle-down"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="">typography</a>
+                            </li>
+                            <li>
+                                <a href="">buttons</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">美食</a>
+                    </li>
+                    <li>
+                        <a href="">关于我</a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
+
+                    <li>
+                        <input class="form-control search" type="text" placeholder=" search">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        </div>
+    </nav>
+    <!-- start home -->
+
+        <section id="home" class="text-center">
+            <div class="templatemo_headerimage">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="images/slider/default.jpg" alt="Slide 1">
+                            <div class="slider-caption">
+                                <div class="templatemo_homewrapper">
+                                    <h1 class="wow fadeInDown" data-wow-delay="2000">hello, this is web &AMP; mobile studio</h1>
+                                    <h2 class="wow fadeInDown" data-wow-delay="2000">
+                                        <span class="rotate">fully responsive business one page, clean design and easy to customize</span>
+                                    </h2>
+                                    <p>it is built on html5, css3, bootstrap, and much more!</p>
+                                    <a href="#work" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="2000">Our Work</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slider/QQphoto.jpg" alt="Slide 2">
+                            <div class="slider-caption">
+                                <div class="templatemo_homewrapper">
+                                    <h1 class="wow fadeInDown" data-wow-delay="2000">Flex Slider, CSS Flexbox</h1>
+                                    <h2 class="wow fadeInDown" data-wow-delay="2000">
+                                        <span class="rotate">work on all modern browsers, Works on IE 10+</span>
+                                    </h2>
+                                    <p>see caniuse.com for browser compatibility information</p>
+                                    <a href="#about" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="2000">See about us</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slider/3.jpg" alt="Slide 3">
+                            <div class="slider-caption">
+                                <div class="templatemo_homewrapper">
+                                    <h1 class="wow fadeInDown" data-wow-delay="2000">Special Thanks</h1>
+                                    <h2 class="wow fadeInDown" data-wow-delay="2000">
+                                        <span class="rotate">unsplash.com, flexslider, bootstrap, jquery</span>
+                                    </h2>
+                                    <p>Feel free to look around and customize to suit your needs.</p>
+                                    <a href="#service" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="2000">Our Services</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <section id="work" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInDown animated" data-wow-delay="2000" style="visibility: visible; animation-name: fadeInDown;">
+                    <h3>CRYSTAL WORK</h3>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <p>Mauris mattis vitae libero eget iaculis. Donec et augue quis quam porttitor consectetur ut nec sem. Integer sagittis viverra quam quis ultricies. Aenean risus nisl, consequat at nunc id, tincidunt tristique mauris.</p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-sm-6 col-md-4 wow fadeInLeft animated" data-wow-delay="2000" style="visibility: visible; animation-name: fadeInLeft;">
+                    <div class="work_thumb">
+                        <img class="img-responsive" alt="work" src="images/work-img-1.jpg">
+                        <div class="work_overlay">
+                            <a href="#">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInDown animated" data-wow-delay="2000" style="visibility: visible; animation-name: fadeInDown;">
+                    <div class="work_thumb">
+                        <img class="img-responsive" alt="work" src="images/work-img-2.jpg">
+                        <div class="work_overlay">
+                            <a href="#">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInRight animated" data-wow-delay="2000" style="visibility: visible; animation-name: fadeInRight;">
+                    <div class="work_thumb">
+                        <img class="img-responsive" alt="work" src="images/work-img-3.jpg">
+                        <div class="work_overlay">
+                            <a href="#">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInLeft animated" data-wow-delay="2000" style="visibility: visible; animation-name: fadeInLeft;">
+                    <div class="work_thumb">
+                        <img class="img-responsive" alt="work" src="images/work-img-4.jpg">
+                        <div class="work_overlay">
+                            <a href="#">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay="2000" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="work_thumb">
+                        <img class="img-responsive" alt="work" src="images/work-img-5.jpg">
+                        <div class="work_overlay">
+                            <a href="#">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInRight animated" data-wow-delay="2000" style="visibility: visible; animation-name: fadeInRight;">
+                    <div class="work_thumb">
+                        <img class="img-responsive" alt="work" src="images/work-img-1.jpg">
+                        <div class="work_overlay">
+                            <a href="#">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="parallax1">
+        <div class="container">
+            <div class="row">
+                <h1>
+                    “And here i am using my own lungs like a sucker. How is education supposed to make
+                    <br>
+                    me feel smarter?”
+                </h1>
+            </div>
+        </div>
     </section>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This is my first page.
-by eamin with 2016/8/5</p>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/eaminhu/blog">Blog</a> is maintained by <a href="https://github.com/eaminhu">eaminhu</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+    <!-- end home -->
+    <!-- start javascript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.simple-text-rotator.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/templatemo.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <!-- end javascript -->
+</body>
 </html>
