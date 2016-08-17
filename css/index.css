@@ -7,6 +7,7 @@ body {
     margin: 0 !important;
     padding: 0 !important;
 }
+nav,section{width:1200px;margin: 0 auto;}
 .navbar-brand {
     font-size: 30px;
     font-weight: 100;
@@ -176,7 +177,6 @@ body {
     background: #f77b6f url("../images/slide-1.jpg") no-repeat fixed 0 0 / cover ;
     font-style: italic;
     min-height: 400px;
-    width: 100%;
 }
 .parallax1 h1 {
     color: #fff;
